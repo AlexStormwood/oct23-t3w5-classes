@@ -50,6 +50,9 @@ export default class PokemonTeam extends React.Component {
 		}
 	}
 
+	componentDidUpdate(){
+		console.log("This component has updated and re-rendered!");
+	}
 	
 
 	// Store data from each request
